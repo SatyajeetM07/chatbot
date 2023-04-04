@@ -1,0 +1,21 @@
+{"intents": [
+    {"tag": "greetings",
+"patterns":["hello","hey","hi","good day","gretings","whats up?"," how is it going?"],
+"responses":["Hello","Hey","What can I do for you?"]},
+{"tag": "news",
+"patterns":["what's in the news today?","can you give me the latest headlines?","what's happening in the world?"],
+"responses":["Sure, here are the latest headlines: [list of news headlines]"]},
+{"tag": "product_info",
+"patterns":["can you tell me about your products?","what are the features of this product?","how does this product work?"],
+"responses":["Certainly! Our product has [list of features]. Here's how it works: [description of product functionality]"]},
+{"tag": "support",
+"patterns":["I'm having trouble with my account","can you help me with this issue?","how do I get in touch with customer support?"],
+"responses":["Of course, we're here to help! What's the issue you're experiencing?"]},
+{"tag": "complaint",
+"patterns":["I'm unhappy with your service","I had a bad experience with your company","I want to complain about your product"],
+"responses":["I'm sorry to hear that. Can you please provide more details about what went wrong? We'll do our best to address the issue."]},
+{"tag": "product_recommendation",
+"patterns":["what product do you recommend for [specific need]?", "which product is best for [specific situation]?", "can you suggest a good product for [specific use case]?"],
+"responses":["Based on your needs, we recommend our [product name]. It has [list of features] that should be perfect for your situation."]}
+    
+]}
